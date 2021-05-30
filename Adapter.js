@@ -1,3 +1,9 @@
+/* 
+    Sử dụng Design Pattern gồm:
+    - Factory => Để tạo ra nhiều đối tượng Adaptee
+    - Adapter => Để kết nối với ứng dụng Adaptee
+*/
+
 class JapaneseAdaptee {
     recieve(words){
         console.log("JAPAN:", words);
